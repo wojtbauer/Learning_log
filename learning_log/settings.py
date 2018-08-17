@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     #Moje aplikacje.
     'learning_logs',
+    'users',
     
 ]
 
