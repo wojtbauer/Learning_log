@@ -37,6 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    #Aplikacje innych firm
+    'bootstrap3',
+    
     #Moje aplikacje.
     'learning_logs',
     'users',
@@ -127,3 +130,7 @@ STATIC_URL = '/static/'
 LOGOUT_REDIRECT_URL = '/'
 LOGIN_URL = '/users/login/'
 
+#Ustawienia dla djngo-bootstrap3.
+BOOTSTRAP3 = {
+    'include_jquery': True,
+    }
