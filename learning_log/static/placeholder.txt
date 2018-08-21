@@ -1,0 +1,1 @@
+Istnienie pliku gwarantuje dodanie learning_log/static do projektu w Heroku.
